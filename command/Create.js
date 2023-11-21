@@ -14,7 +14,7 @@ class Create {
       ])
       .then((answers) => {
         const fileName = answers.userInput + ".js";
-        const saveFile = path.join("nyieun/controllers", fileName);
+        const saveFile = path.join("apps/controllers", fileName);
 
         fs.writeFileSync(saveFile, "", (err) => {
           if (err) {
@@ -37,7 +37,7 @@ class Create {
       ])
       .then((answers) => {
         const fileName = answers.userInput + ".js";
-        const saveFile = path.join("nyieun/models", fileName);
+        const saveFile = path.join("apps/models", fileName);
 
         fs.writeFileSync(saveFile, "", (err) => {
           if (err) {
@@ -60,7 +60,7 @@ class Create {
       ])
       .then((answers) => {
         const fileName = answers.userInput + ".js";
-        const saveFile = path.join("nyieun/middleware", fileName);
+        const saveFile = path.join("apps/middleware", fileName);
 
         fs.writeFileSync(saveFile, "", (err) => {
           if (err) {
@@ -83,7 +83,7 @@ class Create {
       ])
       .then((answers) => {
         const fileName = answers.userInput + ".js";
-        const saveFile = path.join("nyieun/services", fileName);
+        const saveFile = path.join("apps/services", fileName);
 
         fs.writeFileSync(saveFile, "", (err) => {
           if (err) {

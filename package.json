@@ -3,10 +3,12 @@
   "version": "1.0.2",
   "description": "A package for make controller, model, or file into write on commandline",
   "main": "index.js",
-  "homepage": "https://www.npmjs.com/package/nyieun",
+  "homepage": "https://github.com/arifinhabibi/nyieun",
   "type": "module",
   "scripts": {
-    "nyieun": "node index.js"
+    "serve:dev": "nodemon -r dotenv/config index.js",
+    "serve:production": "node -r dotenv/config index.js",
+    "nyieun": "node nyieun.js"
   },
   "keywords": [
     "package",
@@ -30,6 +32,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.12"
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "inquirer": "^9.2.12",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.1"
   }
 }

@@ -1,31 +1,28 @@
-import inquirer from "inquirer";
-import Create from "./command/Create.js";
+import express from "express";
+import bodyParser from "body-parser";
+import router from "./router.js";
 
-inquirer
-  .prompt([
-    {
-      type: "list",
-      name: "action",
-      message: "what you want make?",
-      choices: ["controller", "model", "middleware", "service"],
-    },
-  ])
-  .then((answer) => {
-    switch (answer.action) {
-      case "controller":
-        Create.controller();
-        break;
-      case "model":
-        Create.model();
-        break;
-      case "middleware":
-        Create.middleware();
-        break;
-      case "service":
-        Create.service();
-        break;
-      default:
-        console.log("nothing choice!");
-        break;
-    }
-  });
+const app = express();
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+app.use(router);
+
+app.listen(process.env.APP_PORT, process.env.APP_HOST, () => {
+  if (process.env.APP_ENV === "local") {
+    console.log(
+      `Server running on http://` +
+        process.env.APP_HOST +
+        ":" +
+        process.env.APP_PORT
+    );
+  } else {
+    console.log(
+      `Server running on htts://` +
+        process.env.APP_HOST +
+        ":" +
+        process.env.APP_PORT
+    );
+  }
+});
