@@ -1,0 +1,35 @@
+{
+  "name": "nyieun",
+  "version": "1.0.2",
+  "description": "A package for make controller, model, or file into write on commandline",
+  "main": "index.js",
+  "homepage": "https://www.npmjs.com/package/nyieun",
+  "type": "module",
+  "scripts": {
+    "nyieun": "node index.js"
+  },
+  "keywords": [
+    "package",
+    "nyieun",
+    "file",
+    "controller",
+    "model",
+    "middleware",
+    "into",
+    "write",
+    "on",
+    "commandline",
+    "software architecture",
+    "software",
+    "architecture"
+  ],
+  "author": {
+    "name": "Muhammad Arifin Habibi",
+    "email": "arifinhabibi94@gmail.com",
+    "url": "https://www.cvarifinhabibi.my.id"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  }
+}
