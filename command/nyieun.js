@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import Create from "./command/Create.js";
+import Create from "./Create.js";
 
 inquirer
   .prompt([
@@ -7,7 +7,7 @@ inquirer
       type: "list",
       name: "action",
       message: "what you want make?",
-      choices: ["controller", "model", "middleware", "service"],
+      choices: ["controller", "model", "middleware", "service", "helper"],
     },
   ])
   .then((answer) => {
@@ -23,6 +23,9 @@ inquirer
         break;
       case "service":
         Create.service();
+        break;
+      case "helper":
+        Create.helper();
         break;
       default:
         console.log("nothing choice!");
