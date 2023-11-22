@@ -39,13 +39,17 @@ class Create {
         const fileName = answers.userInput + ".js";
         const saveFile = path.join("apps/models", fileName);
 
-        fs.writeFileSync(saveFile, "", (err) => {
-          if (err) {
-            console.log(err);
-          } else {
-            console.log("file success created");
+        fs.writeFileSync(
+          saveFile,
+          `class ${answers.userInput} {  static index() {}  } export default ${answers.userInput}`,
+          (err) => {
+            if (err) {
+              console.log(err);
+            } else {
+              console.log("file success created");
+            }
           }
-        });
+        );
       });
   }
 

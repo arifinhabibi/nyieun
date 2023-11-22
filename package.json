@@ -1,7 +1,7 @@
 {
   "name": "nyieun",
   "version": "1.0.2",
-  "description": "A package for make controller, model, or file into write on commandline",
+  "description": "Framework For Building RESTful API NodeJS",
   "main": "index.js",
   "homepage": "https://github.com/arifinhabibi/nyieun",
   "type": "module",

@@ -1,7 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
 import router from "./router.js";
-import ConfigDatabase from "./apps/database/config.js";
 import Config from "./apps/database/config.js";
 
 const app = express();
@@ -10,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // configuration database
-Config.database;
+Config.database();
 
 app.use(router);
 
