@@ -11,7 +11,7 @@
     "nyieun": "node command/nyieun.js"
   },
   "keywords": [
-    "package",
+    "Framework",
     "nyieun",
     "file",
     "controller",
@@ -23,7 +23,8 @@
     "commandline",
     "software architecture",
     "software",
-    "architecture"
+    "architecture",
+    "nodejs"
   ],
   "author": {
     "name": "Muhammad Arifin Habibi",
@@ -36,8 +37,14 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "inquirer": "^9.2.12",
+    "mariadb": "^3.2.2",
+    "mysql2": "^3.6.5",
     "nodemon": "^3.0.1",
+    "oracledb": "^6.2.0",
     "pg": "^8.11.3",
-    "sequelize": "^6.35.1"
+    "sequelize": "^6.35.1",
+    "snowflake-sdk": "^1.9.1",
+    "sqlite3": "^5.1.6",
+    "tedious": "^16.6.0"
   }
 }

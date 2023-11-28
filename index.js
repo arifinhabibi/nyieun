@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import router from "./router.js";
-import Config from "./apps/database/config.js";
+import Config from "./apps/database/Config.js";
 
 const app = express();
 

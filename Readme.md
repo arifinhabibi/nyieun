@@ -3,12 +3,35 @@
 ### Helper tool for make restful api nodejs
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facilis illum odio aliquid, ex aliquam eius iure quisquam hic. Porro!
 
-### Open Source Project
-if you interested with this project, you can joining with us for the better future package
+#### Installation
+i'll tell you how to install this framework to your local device for your RESTful API Development. run this command to your terminal local path directory
 ```bash
 git clone https://github.com/arifinhabibi/nyieun.git
 ```
-### Donate for coffee
+then install package resources *node_modules*
+```bash
+npm install
+```
+the next, create file *.env*, copy content into file *.env.example* and paste there. please configure file *.env* and adjust it.
+
+#### Running
+for development use this command
+```bash
+npm run serve:dev
+```
+and for production 
+```bash
+npm run serve:production
+```
+
+#### Feature Nyieun
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facilis illum odio aliquid, ex aliquam eius iure quisquam hic. Porro!
+
+
+### Open Source Project
+if you interested with this project, you can joining with us for the better future project
+
+### Donate for support development
 
 * ![BNB](https://user-images.githubusercontent.com/80776324/230691108-ecd10132-af58-4064-8c44-ad10f6f55dd1.png) **BNB: 0xC485dbe8df3de132eD8F1ed629634A9817B5EC56**
 
