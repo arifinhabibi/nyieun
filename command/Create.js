@@ -2,6 +2,7 @@ import inquirer from "inquirer";
 import fs from "fs";
 import path from "path";
 import Template from "./Template.js";
+import { execSync } from "node:child_process";
 
 class Create {
   static controller() {
@@ -17,17 +18,20 @@ class Create {
         const fileName = answers.userInput + ".js";
         const saveFile = path.join("apps/controllers", fileName);
 
-        fs.writeFileSync(
-          saveFile,
-          Template.controller(answers.userInput),
-          (err) => {
-            if (err) {
-              console.log(err);
-            } else {
-              console.log("file success created");
+        if (!fs.existsSync(saveFile)) {
+          fs.writeFileSync(
+            saveFile,
+            Template.controller(answers.userInput),
+            (err) => {
+              if (err) {
+                console.log(err);
+              }
             }
-          }
-        );
+          );
+        }
+
+        const command = `code ${saveFile}`;
+        execSync(command);
       });
   }
 
@@ -44,13 +48,20 @@ class Create {
         const fileName = answers.userInput + ".js";
         const saveFile = path.join("apps/models", fileName);
 
-        fs.writeFileSync(saveFile, Template.model(answers.userInput), (err) => {
-          if (err) {
-            console.log(err);
-          } else {
-            console.log("file success created");
-          }
-        });
+        if (!fs.existsSync(saveFile)) {
+          fs.writeFileSync(
+            saveFile,
+            Template.model(answers.userInput),
+            (err) => {
+              if (err) {
+                console.log(err);
+              }
+            }
+          );
+        }
+
+        const command = `code ${saveFile}`;
+        execSync(command);
       });
   }
 
@@ -67,17 +78,20 @@ class Create {
         const fileName = answers.userInput + ".js";
         const saveFile = path.join("apps/middleware", fileName);
 
-        fs.writeFileSync(
-          saveFile,
-          Template.middleware(answers.userInput),
-          (err) => {
-            if (err) {
-              console.log(err);
-            } else {
-              console.log("file success created");
+        if (!fs.existsSync(saveFile)) {
+          fs.writeFileSync(
+            saveFile,
+            Template.middleware(answers.userInput),
+            (err) => {
+              if (err) {
+                console.log(err);
+              }
             }
-          }
-        );
+          );
+        }
+
+        const command = `code ${saveFile}`;
+        execSync(command);
       });
   }
 
@@ -94,17 +108,20 @@ class Create {
         const fileName = answers.userInput + ".js";
         const saveFile = path.join("apps/services", fileName);
 
-        fs.writeFileSync(
-          saveFile,
-          Template.service(answers.userInput),
-          (err) => {
-            if (err) {
-              console.log(err);
-            } else {
-              console.log("file success created");
+        if (!fs.existsSync(saveFile)) {
+          fs.writeFileSync(
+            saveFile,
+            Template.service(answers.userInput),
+            (err) => {
+              if (err) {
+                console.log(err);
+              }
             }
-          }
-        );
+          );
+        }
+
+        const command = `code ${saveFile}`;
+        execSync(command);
       });
   }
 
@@ -121,17 +138,20 @@ class Create {
         const fileName = answers.userInput + ".js";
         const saveFile = path.join("apps/helpers", fileName);
 
-        fs.writeFileSync(
-          saveFile,
-          Template.helper(answers.userInput),
-          (err) => {
-            if (err) {
-              console.log(err);
-            } else {
-              console.log("file success created");
+        if (!fs.existsSync(saveFile)) {
+          fs.writeFileSync(
+            saveFile,
+            Template.helper(answers.userInput),
+            (err) => {
+              if (err) {
+                console.log(err);
+              }
             }
-          }
-        );
+          );
+        }
+
+        const command = `code ${saveFile}`;
+        execSync(command);
       });
   }
 }
