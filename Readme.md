@@ -4,22 +4,22 @@
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facilis illum odio aliquid, ex aliquam eius iure quisquam hic. Porro!
 
 #### Installation
-i'll tell you how to install this framework to your local device for your RESTful API Development. run this command to your terminal local path directory
+I'll tell you how to install this framework to your local device for your RESTful API Development. run this command to your terminal local path directory
 ```bash
 git clone https://github.com/arifinhabibi/nyieun.git
 ```
-then install package resources *node_modules*
+Then install package resources **node_modules**
 ```bash
 npm install
 ```
-the next, create file *.env*, copy content into file *.env.example* and paste there. please configure file *.env* and adjust it.
+The next, create file **.env**, copy content into file **.env.example** and paste there. please configure file **.env** and adjust it.
 
 #### Running
-for development use this command
+For development use this command
 ```bash
 npm run serve:dev
 ```
-and for production 
+And for production 
 ```bash
 npm run serve:production
 ```
@@ -29,7 +29,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facilis illum od
 
 
 ### Open Source Project
-if you interested with this project, you can joining with us for the better future project
+If you interested with this project, you can joining with us for the better future project
 
 ### Donate for support development
 
