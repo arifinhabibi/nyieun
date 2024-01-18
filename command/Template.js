@@ -4,7 +4,7 @@ class Template {
       "class " +
       name +
       " {\n" +
-      "\tstatic index() {\n" +
+      "\tstatic index(req, res) {\n" +
       "\t\t// write here your code\n" +
       "\t}\n" +
       "}\n" +
@@ -18,7 +18,7 @@ class Template {
       "class " +
       name +
       " {\n" +
-      "\tstatic index() {\n" +
+      "\tstatic async index() {\n" +
       "\t\t// write here your code\n" +
       "\t}\n" +
       "}\n" +
