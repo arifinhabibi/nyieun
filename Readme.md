@@ -1,7 +1,7 @@
 ![banner](https://i.ibb.co/WnW0VV8/nyieun-banner-1.png)
 
 ### Tool for help building restful api nodejs project
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facilis illum odio aliquid, ex aliquam eius iure quisquam hic. Porro!
+NYIEUN is an innovative framework designed to streamline the process of building RESTful APIs using Node.js and Express.js. With the increasing demand for robust and scalable backend solutions, NYIEUN provides developers with a powerful toolkit to accelerate the development of RESTful APIs for web and mobile applications.
 
 #### Installation
 I'll tell you how to install this framework to your local device for your RESTful API Development. run this command to your terminal local path directory
