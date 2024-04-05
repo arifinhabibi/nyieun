@@ -1,6 +1,6 @@
 ![banner](https://i.ibb.co/WnW0VV8/nyieun-banner-1.png)
 
-### Tool helper for make restful api nodejs
+### Tool for help building restful api nodejs project
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facilis illum odio aliquid, ex aliquam eius iure quisquam hic. Porro!
 
 #### Installation
@@ -43,5 +43,5 @@ If you interested with this project, you can joining with us for the better futu
 
 ### Constributor
 
-> [Muhammad Arifin Habibi](https://gitlab.com/arifinhabibi) ( Creator )
+> [Muhammad Arifin Habibi](https://github.com/arifinhabibi) ( Creator )
 >
