@@ -25,8 +25,9 @@ npm run serve:production
 ```
 
 #### Feature Nyieun
-You can use Nyieun feature with this way, please focus on terminal and run this command
+NYIEUN is a feature-rich framework designed to streamline the process of building RESTful APIs using Node.js and Express.js. This README provides a step-by-step guide on how to use the NYIEUN feature in the terminal of Visual Studio Code.
 
+##### Usage
  ```bash
 npm run nyieun
 ```
@@ -45,6 +46,10 @@ If you interested with this project, you can joining with us for the better futu
 
 
 * ![ETH](https://user-images.githubusercontent.com/80776324/230691090-32c937b9-61bc-4eeb-b058-c46c8fc250ac.png) **ETH: 0xC485dbe8df3de132eD8F1ed629634A9817B5EC56**
+
+
+### License
+This project is licensed under the [MIT License](https://github.com/arifinhabibi/nyieun/blob/main/LICENSE).
 
 ### Constributor
 
