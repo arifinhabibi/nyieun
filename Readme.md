@@ -25,7 +25,12 @@ npm run serve:production
 ```
 
 #### Feature Nyieun
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facilis illum odio aliquid, ex aliquam eius iure quisquam hic. Porro!
+You can use Nyieun feature with this way, please focus on terminal and run this command
+
+ ```bash
+npm run nyieun
+```
+then, you can choose one option what you want create. the option between controller, model, middleware, service, helper. its look like laravel feature right hehe. just for fun and to usefully on your building project, enjoy to use this feature.
 
 
 ### Open Source Project
